@@ -21,7 +21,7 @@ namespace JuegoPrioyectoFinal
 
             Altura = 20;
 
-            direcciones = "izquierda";
+            direcciones = "left";
 
 
 
