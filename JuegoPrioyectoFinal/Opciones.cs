@@ -17,9 +17,9 @@ namespace JuegoPrioyectoFinal
 
         public Opciones()
         {
-            Anchura = 20;
+            Anchura = 28;
 
-            Altura = 20;
+            Altura = 23;
 
             direcciones = "left";
 
