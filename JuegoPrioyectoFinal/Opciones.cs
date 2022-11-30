@@ -8,11 +8,19 @@ namespace JuegoPrioyectoFinal
 {
     internal class Opciones
     {
-        //Esta son variables Estaticas las cuales son las cuales no es necesario crear una instancia de ellos, sino que una vez que son llamados de la clase principal son accesibles alrededor del programa
+        /// <summary>
+        /// Esta son variables Estaticas las cuales son las cuales no es necesario crear una instancia de ellos, sino que una vez que son llamados de la clase principal son accesibles alrededor del programa,
+        /// Establece las variables estaticas de anchura y altura
+        /// </summary>
+       
+
         public static int Anchura { get; set; }
 
         public static int Altura { get; set; }
 
+        /// <summary>
+        /// Establece las variable estatica que se encarga de las direcciones
+        /// </summary>
         public static string direcciones;
 
         /// <summary>
@@ -27,6 +35,7 @@ namespace JuegoPrioyectoFinal
             direcciones = "left";
 
         }
+
 
     }
 }
