@@ -15,6 +15,9 @@ namespace JuegoPrioyectoFinal
 
         public static string direcciones;
 
+        /// <summary>
+        /// Constructor que establece los valores que definen el tamaño en altura y anchura de la serpiente y la comida, tambien establece en que dirección comenzara la serpiente a caminar al iniciar el juego
+        /// </summary>
         public Opciones()
         {
             Anchura = 28;
@@ -23,13 +26,7 @@ namespace JuegoPrioyectoFinal
 
             direcciones = "left";
 
-
-
-
-
-
         }
-
 
     }
 }
